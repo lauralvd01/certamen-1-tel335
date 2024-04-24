@@ -1,1 +1,1 @@
-[]
+[{"event_id":"abcde123456","context":"car_plate","metadata":"HGNV12","timestamp":1713590586099},{"event_id":"abcde1234567","context":"car_plate","metadata":"HGNV12","timestamp":1713590588101},{"event_id":"abcde12345678","context":"car_plate","metadata":"HGNV12","timestamp":1713590629175},{"event_id":"abcde123456789","context":"car_plate","metadata":"PTHB15","timestamp":1713590631176}]
