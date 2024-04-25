@@ -15,3 +15,6 @@ npm run start
 ```
 
 o también `npm run start:dev` para utilizar `nodemon`.
+
+# Link del repository
+[https://github.com/lauralvd01/certamen-1-tel335](https://github.com/lauralvd01/certamen-1-tel335)
