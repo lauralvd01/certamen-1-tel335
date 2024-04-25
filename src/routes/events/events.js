@@ -24,10 +24,3 @@ exports.createEvent = (ctx) => {
     }
     return ctx
 }
-
-exports.formatData = (ctx) => {
-    const data = eventsActions.formatData(ctx.params.threshold)
-    ctx.body = { "data": data }
-    ctx.status = 200
-    return ctx
-}
