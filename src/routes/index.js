@@ -1,7 +1,6 @@
 import Router from 'koa-router'
 import getHealth from './health/health'
 import {createEvent} from './events/events'
-import {formatData} from './events/events'
 
 const router = new Router()
 

@@ -19,13 +19,9 @@ function maxDelay(event, oldEvents) {
     return max
 }
 
-exports.formatData = (threshold) => { 
+function formatData(threshold) { 
     const data = []
     let carsIndex = 0
-    let newCarIncident = {
-        "incidents_id": carsIndex,
-        "incidents": []
-    }
     for (let eventsIndex = 0; eventsIndex < events.length; eventsIndex++) {
         const event = events[eventsIndex]
         if (data.length === 0) { // First car incident
